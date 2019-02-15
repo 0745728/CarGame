@@ -57,9 +57,13 @@ document.onkeyup = (event) => {
         reWriteStats();
     }
 
-    if (letter === "t") {
-        car.to();
+    if (letter === 't') {
+        car.teneup();
         reWriteStats();
     }
 
+    if (letter === 'd') {
+        car.driveToWork();
+        reWriteStats();
+    }
 }
