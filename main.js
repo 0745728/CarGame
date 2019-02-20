@@ -19,7 +19,7 @@ const car = {
         alert(`car needs a tuneup!`);
         this.isWorking = false;
     },
-    getTuneup(){
+    getTuneUp(){
         alert(`Car is fixed and ready to go!`);
         this.isWorking = true;
     },
@@ -58,7 +58,7 @@ document.onkeyup = (event) => {
     }
 
     if (letter === 't') {
-        car.teneup();
+        car.getTuneUp();
         reWriteStats();
     }
 
